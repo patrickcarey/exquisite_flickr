@@ -2,7 +2,7 @@
 
 A small application to build some collages from flickr searches.
 
-This uses the [phpFlickr class](http://phpflickr.com/)
+This uses the [phpFlickr class](http://phpflickr.com/) and [jQuery](http://jquery.com)
 
 ## How it works
 
