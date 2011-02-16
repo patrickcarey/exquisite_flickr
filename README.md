@@ -8,7 +8,7 @@ This uses the [phpFlickr class](http://phpflickr.com/)
 
 * Calls to flickr for a photo search based on tags.
 
-* Then gets the phot size by photo id.
+* Then gets the photo size by photo id.
 
 * Then chops em up.
 
