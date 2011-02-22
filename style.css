@@ -1,0 +1,136 @@
+/* @override http://localhost:8888/exquisite_flickr/style.css */
+
+body{
+	
+	padding:10px;
+	background: url(dot.png);
+	
+}
+
+
+#content{
+	width: 960px;
+	height: 750px;
+	overflow: hidden;
+	background: #fff;
+	padding: 10px;
+	
+}
+
+#main{
+	width:700px;
+	height:700px;
+	overflow:hidden;
+	
+
+	
+}
+
+#mask, #main{
+	
+	position:absolute;
+	
+	top:100;
+	left:300;
+	
+}
+
+#mask{
+	
+	
+	z-index:99;
+}
+
+#main div.image{
+	
+	margin-top:-100px;
+	display:none;
+	float:left;
+	
+}
+
+#main div.image.1{
+	
+	top:0 !important;
+	
+}
+
+#main div:first-child{
+	
+	
+	
+}
+
+#header{
+	
+	font-family: Helvetica Neue,Helvetica, Arial, sans-serif;
+	color: #796d96;
+	color:#333;
+}
+
+#header a {
+	text-decoration: none;
+	color: #333;
+	padding: 4px;
+	border-radius:10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+#header a:hover{
+	
+	background:#eee;
+	
+}
+#form{
+	
+	
+	width:200px;
+	
+	font-size:1.15em;
+	
+	font-family: Georgia, serif;
+	
+	font-style: italic;
+	
+	color:#030;
+}
+
+#form p{
+	
+	color: #999;
+}
+
+#form input.button{
+	
+	background:  #eee;
+	border: none;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	
+	font-family: Georgia, serif;
+	
+	font-style: italic;
+	font-size: .75em;
+	margin-top: 10px;
+}
+
+#form input.field{
+	border: 1px solid #333;
+	font-size: .75em;
+	
+	font-family: Georgia, serif;
+	
+	font-style: italic;
+}
+
+#tags{
+	
+color:#999;
+opacity:0;
+font-family: Helvetica Neue, Helvetica;
+font-style: normal;
+font-size: .75em;
+	
+}
